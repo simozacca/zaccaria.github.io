@@ -1,9 +1,15 @@
-# Welcome to Jekyll!
+# Welcome tAo Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
+
+plugins:
+  - jekyll-remote-theme
+  
+remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -80,15 +86,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  name             : "Simone Zaccaria"
+  avatar           : "profile.jpg"
+  bio              : "Computer Science PhD working in cancer computational biology at Princeton University"
+  location         : "Princeton, NJ, USA"
+  employer         : "http://compbio.cs.brown.edu/"
+  pubmed           : 
+  googlescholar    : "https://scholar.google.com/citations?user=_dJLciQAAAAJ&hl=en&oi=ao"
   email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : 
   uri              :
   bitbucket        :
   codepen          :
@@ -96,7 +102,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "simozacca"
   google_plus      :
   keybase          :
   instagram        :
@@ -144,6 +150,8 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - assets
+  - assets`
 keep_files:
   - .git
   - .svn

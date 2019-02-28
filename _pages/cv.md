@@ -11,30 +11,15 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Computer Science, approced with honours, University of Milano-Bicocca, Italy, 04/2017
+* M.S. in Computer Science cum laude, University of Milano-Bicocca, Italy, 07/2013
+* B.S. in Computer Science cum laude, University of Milano-Bicocca, Italy, 09/2011
 
-Work experience
+Visiting
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 11/2015--12/2016, Brown University, Visiting Graduate student
+* 07/2015, CWI with with Prof. Gunnar Klau and Prof. Nadia Pisanti, Amsterdam, Netherlands.
+* 03/2013–-07/2013 Laboratory of Genominformatik, Research Fellow for master thesis with Prof. Jens Stoye, University of Bielefeld, Germany.
 
 Publications
 ======
@@ -53,7 +38,3 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams

@@ -11,6 +11,21 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+## Preprints
+
+   <ul>{% for post in site.preprints reversed %}
+      {% include archive-single.html %}
+   {% endfor %}</ul>
+
+## Peer-reviewed journal
+
+   <ul>{% for post in site.journals reversed %}
+      {% include archive-single.html %}
+   {% endfor %}</ul>
+
+## Peer-reviewed conference
+
+   <ul>{% for post in site.proceedings reversed %}
+      {% include archive-single.html %}
+   {% endfor %}</ul>
+

@@ -25,9 +25,25 @@ Visiting
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+
+## Preprints
+
+  <ul>{% for post in site.preprints %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+## Peer-reviewed journal
+
+  <ul>{% for post in site.journals %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+## Peer-reviewed conference
+
+  <ul>{% for post in site.proceedings %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
   
 Talks
 ======

@@ -87,7 +87,7 @@ author:
   employer         : "http://compbio.cs.brown.edu/"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=_dJLciQAAAAJ&hl=en&oi=ao"
-  email            :
+  email            : "zaccaria@princeton.edu"
   researchgate     : 
   uri              :
   bitbucket        :
@@ -179,6 +179,15 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  journals:
+    output: true
+    permalink: /:collection/:path/
+  proceedings:
+    output: true
+    permalink: /:collection/:path/
+  preprints:
+    output: true
+    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -220,6 +229,33 @@ defaults:
   - scope:
       path: ""
       type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _journals
+  - scope:
+      path: ""
+      type: journals
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _proceedings
+  - scope:
+      path: ""
+      type: proceedings
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _preprints
+  - scope:
+      path: ""
+      type: preprints
     values:
       layout: single
       author_profile: true

@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+Please find a formal PDF version of my CV [here](https://github.com/simozacca/simozacca.github.io/CV.pdf) (last update on April, 2018).
+
 Education
 ======
 * Ph.D in Computer Science, approced with honours, University of Milano-Bicocca, Italy, 04/2017
@@ -30,6 +32,12 @@ Publications
 Talks
 ======
   <ul>{% for post in site.talks %}
+    {% include archive-single-talk-cv.html %}
+  {% endfor %}</ul>
+
+Posters
+======
+  <ul>{% for post in site.posters %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   

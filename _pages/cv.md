@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Please find a formal PDF version of my CV [here](https://github.com/simozacca/simozacca.github.io/CV.pdf) (last update on April, 2018).
+Please find a formal PDF version of my CV [here](https://github.com/simozacca/simozacca.github.io/files/CV.pdf) (last update on April, 2018).
 
 Education
 ======

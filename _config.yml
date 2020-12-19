@@ -10,11 +10,11 @@ locale                   : "en-US"
 title                    : "Simone Zaccaria"
 title_separator          : "-"
 name                     : &name "Simone Zaccaria"
-description              : &description "Postdoctoral Research Associate at Princeton University"
+description              : &description "Group leader of Computational Cancer Genomics lab at UCL Cancer Institute"
 url                      : https://simozacca.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "simozacca/simozacca.github.io"
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "dna-4478127_1920.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : false # default true
@@ -29,9 +29,9 @@ comments:
   facebook:
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "dark" # "light" (default), "dark"
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
+  allowedFields          : ['name', 'email', 'url', 'message', 'lab']
   branch                 : "gh-pages" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Simone Zaccaria"
   avatar           : "profile.jpg"
-  bio              : "Computer Science PhD working in cancer computational biology at Princeton University"
-  location         : "Princeton, NJ, USA"
-  employer         : "http://compbio.cs.brown.edu/"
+  bio              : "Group Leader of the Computational Cancer Genomics (CCG) Lab at the UCL Cancer Institute and Visiting Scientist at the Francis Crick"
+  location         : "London, UK"
+  employer         : "https://www.ucl.ac.uk/cancer/zaccaria-lab"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=_dJLciQAAAAJ&hl=en&oi=ao"
-  email            : "zaccaria@princeton.edu"
+  email            : "s.zaccaria@ucl.ac.uk"
   researchgate     : 
   uri              :
   bitbucket        :
@@ -108,7 +108,7 @@ author:
   stackoverflow    :
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "@ZaccaSimo"
   vine             :
   weibo            :
   xing             :

@@ -14,10 +14,10 @@ description              : &description "Group leader of Computational Cancer Ge
 url                      : https://simozacca.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "simozacca/simozacca.github.io"
-teaser                   : "dna-4478127_1920.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "/images/dna-4478127_1920.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : false # default true
+future                   : true # default true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
@@ -84,7 +84,7 @@ author:
   avatar           : "profile.jpg"
   bio              : "Group Leader of the Computational Cancer Genomics (CCG) Lab at the UCL Cancer Institute and Visiting Scientist at the Francis Crick"
   location         : "London, UK"
-  employer         : "https://www.ucl.ac.uk/cancer/zaccaria-lab"
+  employer         : "www.ucl.ac.uk/cancer/zaccaria-lab"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=_dJLciQAAAAJ&hl=en&oi=ao"
   email            : "s.zaccaria@ucl.ac.uk"
